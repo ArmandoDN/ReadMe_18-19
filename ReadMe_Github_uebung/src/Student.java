@@ -6,6 +6,13 @@ public class Student {
 	private int geburtsjahr;
 	private String studiengang;
 	
+	/**
+	 * 
+	 * @param name
+	 * @param geburtsjahr
+	 * @param studiengang
+	 */
+	
 	public Student(String name, int geburtsjahr, String studiengang) {
 		super();
 		this.name = name;
@@ -13,11 +20,17 @@ public class Student {
 		this.studiengang = studiengang;
 	}
 
+	/**
+	 * ausgabe
+	 */
 	public void ausgeben(){
 		
 		System.out.println(name + "/" + studiengang);
 	}
-	
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		Student s1 = new Student ("Armando" , 1996 , "IMA");
