@@ -5,6 +5,7 @@ public class Student {
 	private String name;
 	private int geburtsjahr;
 	private String studiengang;
+
 	
 	/**
 	 * 
@@ -27,6 +28,12 @@ public class Student {
 		
 		System.out.println(name + "/" + studiengang + "alter ist" + geburtsjahr);
 	}
+	
+	public int getAlter(){
+		
+		return (2019-geburtsjahr);
+	}
+	
 	/**
 	 * 
 	 * @param args
