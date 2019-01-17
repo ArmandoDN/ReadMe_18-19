@@ -8,3 +8,6 @@ jetzt ändere ich in den Zweig branch1
 bla bla
 
 wieder was reinschreiben
+
+
+jetzt wird ein konfilkt erzeugt
