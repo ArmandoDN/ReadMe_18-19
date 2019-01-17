@@ -25,7 +25,7 @@ public class Student {
 	 */
 	public void ausgeben(){
 		
-		System.out.println(name + "/" + studiengang + "alter ist" + geburtstag);
+		System.out.println(name + "/" + studiengang + "alter ist" + geburtsjahr);
 	}
 	/**
 	 * 
